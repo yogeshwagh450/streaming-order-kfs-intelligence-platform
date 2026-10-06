@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.properties
+!*.example.properties
+
+# Credentials and private keys
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.keystore
+credentials.json
+service-account.json
+
+# Confluent local credentials
+client.properties
+cloud.properties
+kafka.properties
+schema-registry.properties
+
+# Snowflake configuration
+connections.toml
+private_key*
+rsa_key*
+snowflake-config.json
+
+# Flink runtime
+.checkpoints/
+.savepoints/
+flink-checkpoints/
+flink-savepoints/
+flink-logs/
+log/
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Local data
+data/
+output/
