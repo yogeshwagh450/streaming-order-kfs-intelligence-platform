@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "orderstream-kfs-platform"
+name = "realtime-order-kfs-intelligence-platform"
 version = "0.1.0"
 description = "Real-time order streaming platform using Kafka, Flink and Snowflake"
 readme = "README.md"

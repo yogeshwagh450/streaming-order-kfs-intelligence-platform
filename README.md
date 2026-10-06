@@ -1,4 +1,4 @@
-# OrderStream KFS Platform
+# Realtime Order KFS Intelligence Platform
 
 Real-time order event streaming platform built on **K**afka (Confluent Cloud),
 **F**link and **S**nowflake, with Python producers and schema-governed Avro events.
