@@ -75,3 +75,25 @@ temp/
 # Local data
 data/
 output/
+
+
+# Additional Python tooling
+.tox/
+.nox/
+.hypothesis/
+.pyright/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Java and Flink connector artifacts
+*.jar
+target/
+
+# Local application configuration
+config/local/
+*.local.yaml
+*.local.yml
+*.local.json

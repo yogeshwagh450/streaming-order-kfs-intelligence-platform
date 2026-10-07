@@ -1,4 +1,4 @@
-# Realtime Order KFS Intelligence Platform
+﻿# Streaming Order KFS Intelligence Platform
 
 Real-time order event streaming platform built on **K**afka (Confluent Cloud),
 **F**link and **S**nowflake, with Python producers and schema-governed Avro events.
@@ -58,3 +58,8 @@ committed. Use `.env.example` and `*.example.properties` files only.
 ## Documentation
 
 Architecture decisions are maintained in `docs/architecture/decisions/`.
+
+## License
+
+No license has been selected yet. All rights are reserved until a license is
+added to the repository.
